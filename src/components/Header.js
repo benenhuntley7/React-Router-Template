@@ -12,7 +12,6 @@ export default function Header() {
     dispatch(logOut());
   };
 
-  // Replace the 4 <a> tags with <NavLink> components
   return (
     <div className="header">
       <NavLink to="/about">About</NavLink>
